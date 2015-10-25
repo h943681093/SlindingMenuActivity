@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.supermap.mapping">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/slindingMenuActivity/libs/com.supermap.mapping.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

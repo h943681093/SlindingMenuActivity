@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">你好聊大</string>
+    
+    
+    <string-array name="fanwei">
+        <item>20米</item>          
+        <item>50米</item>
+        <item>100米</item>
+        <item>150米</item>
+        <item>200米</item>
+    </string-array>
+    
+    
+</resources>

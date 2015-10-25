@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="405dp"
+    android:layout_marginTop="208dp"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="2dp"
+            android:padding="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="    被褥：报到时交现金500左右，有两床被子，一床毛巾被，两床椂子，一个枕头，两个枕巾，两个床单，一个蚊帐，一个暖瓶，一个盆。（不包含凉席，怕热的同学可以自带或者在学校的商店购买）如果嫌太贵了- -可以不买，在大服有跟学校一样的，可以直接按需要购买，毕竟学校发的质量没有很好，而且价钱虚太多了。
+跟随报到地点的学长学姐去指定地点领取被褥"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/brpoit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/press_bluedeeper"
+                android:text="查  看  领  取 地  点"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

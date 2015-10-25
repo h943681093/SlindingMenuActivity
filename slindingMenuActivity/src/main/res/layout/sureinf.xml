@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/scnews_title" >
+
+        <ImageView
+            android:id="@+id/sureinf_back"
+            android:layout_width="54dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:background="@drawable/seachicon_bg"
+            android:src="@drawable/news__back" />
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="24dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/sureinf_back"
+            android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="60dip"
+            android:text="核对信息"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/whitecorner_mintextview" >
+
+        <TextView
+            android:id="@+id/noticetitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center_vertical|left"
+            android:lineSpacingExtra="3dp"
+            android:minLines="3"
+            android:textColor="#5C5649"
+            android:paddingBottom="5dp"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/noticecontent"
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|left"
+            android:text="暂无消息"
+            android:textColor="#1D334B"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/relativeLayout1"
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#F52232"
+        android:text="友情提示：" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="42dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/relativeLayout1"
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#F52232"
+        android:text="请仔细核对，避免冒领错领 ！  " />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="75dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/relativeLayout1"
+        android:gravity="center_vertical|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#F52232"
+        android:text="最好通过官方渠道归还物品，保证自身安全！" />
+
+    <Button
+        android:id="@+id/falseinf"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="67dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/press_bluedeeper"
+        android:text="忽  略  消  息"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/trueinf"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/press_reddeeper"
+        android:text="确  认  认  领"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="405dp"
+    android:layout_marginTop="208dp"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="2dp"
+            android:padding="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="生活用品 报到当天会相当热闹的，那是“彩旗招展、锣鼓喧天、人山人海”。各学院会组织学生会的成员和大二的学长学姐迎接14级的新童鞋们，报到、注册速度会很快，不会花多少时间。学长学姐会领你领取被褥、暖瓶、宿舍钥匙等用品。带你去宿舍，熟悉环境，并且整理一下宿舍、铺床、挂蚊帐。学长学姐很是贴心，但是不要自己神马都不做哦，自己的事情还是自己动手的好。
+一般从汽车站到聊大西校打的要8-12元左右，不要被坑了。。有的司机会带着你绕远路，从汽车站到聊大一般拐4、5个弯，要是再多的话就说明。。不要在汽车站附近打的，以免被坑~~
+从火车站到学校非新生报到的时候10块即可到西校南门，但新学期开始估计会涨价，15元-20元，如果独自来学校的新生可以和聊大的同学拼车。
+每年报到的时候学校都会安排车子接送新生，拿着录取通知书就可以坐上车~所以不怕被的士司机宰啦~
+一般会有聊大的学生、社团组织在车站、学校门口设立迎新点 .到达学校后也可以随处看见流动的志愿者，和固定的志愿服务点。"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/sepoit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/press_bluedeeper"
+                android:text="学  院  报  到  处"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lc1" >
+
+    <RelativeLayout
+        android:id="@+id/jjtitle1"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/scnews_title" >
+
+        <ImageView
+            android:id="@+id/jj_back1"
+            android:layout_width="54dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/news__back" />
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="24dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/jj_back1"
+            android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="60dip"
+            android:text="聊大简介"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="96dp" >
+
+        <RelativeLayout
+            android:id="@+id/fl1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/counter_bg" >
+
+            <ImageView
+                android:id="@+id/syone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/ldbs" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/syone"
+                android:text="聊大标识"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bl2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fl1"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/tb1"
+            android:background="@drawable/counter_bg"
+            android:text="校歌"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bl1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fl1"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@id/tb1"
+            android:background="@drawable/counter_bg"
+            android:text="校徽"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/tb1"
+            android:layout_width="2dp"
+            android:layout_height="0.001dp"
+            android:layout_below="@id/fl1"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/bl4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fl1"
+            android:layout_marginTop="54dp"
+            android:layout_toRightOf="@+id/tb1"
+            android:background="@drawable/counter_bg"
+            android:text="教风"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bl3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fl1"
+            android:layout_marginTop="54dp"
+            android:layout_toLeftOf="@id/tb1"
+            android:background="@drawable/counter_bg"
+            android:text="校训"
+            android:textColor="#ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/fl2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/bl4"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/counter_bg" >
+
+            <ImageView
+                android:id="@+id/sytwo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/xxgk" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/sytwo"
+                android:text="学校概况"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        
+
+        <Button
+            android:id="@+id/tbl2"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_below="@+id/fl2"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/tb1"
+            android:background="@drawable/counter_bg"
+            android:drawableTop="@drawable/ldjs"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/tbl1"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_below="@+id/fl2"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@id/tb1"
+            android:background="@drawable/counter_bg"
+            android:drawableTop="@drawable/xxjj2"
+            android:textColor="#ffffff" />
+
+       
+        <Button
+            android:id="@+id/tbl4"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_below="@+id/fl2"
+            android:layout_marginTop="119dp"
+            android:layout_toRightOf="@+id/tb1"
+            android:background="@drawable/counter_bg"
+            android:drawableTop="@drawable/lsdy"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/tbl3"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_below="@+id/fl2"
+            android:layout_marginTop="119dp"
+            android:layout_toLeftOf="@id/tb1"
+            android:background="@drawable/counter_bg"
+            android:drawableTop="@drawable/xrld"
+            android:textColor="#ffffff" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl2"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="70dp"
+            android:layout_toLeftOf="@id/tb1"
+            android:text="学校简介"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl2"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="185dp"
+            android:layout_toLeftOf="@id/tb1"
+            android:text="现任领导"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl2"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@id/tb1"
+            android:text="聊大精神"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl2"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="185dp"
+            android:layout_toRightOf="@id/tb1"
+            android:text="历史第一"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

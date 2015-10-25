@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrstest="http://schemas.android.com/apk/res/com.dome.viewer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/scnews_title" >
+
+        <ImageView
+            android:id="@+id/notice_back"
+            android:layout_width="54dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/news__back" />
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="24dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/notice_back"
+            android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="60dip"
+            android:text="学生组织"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:paddingBottom="55dip"
+        android:persistentDrawingCache="animation" />
+
+    <RadioGroup
+        android:id="@+id/rg_main_btns"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:background="@drawable/scnews_title"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.oiangie.lcuhelper.JavaTool.MyRadioButton
+            android:id="@+id/buyHomeTab"
+            style="@style/radioButtonStyle"
+            android:layout_width="66dp"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/news_radio"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="学生会"
+            android:textSize="16sp" />
+
+        <com.oiangie.lcuhelper.JavaTool.MyRadioButton
+            android:id="@+id/winAfficheTab"
+            style="@style/radioButtonStyle"
+            android:layout_width="60dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/news_radio"
+            android:button="@null"
+            android:gravity="center"
+            android:text="社团"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+</RelativeLayout>

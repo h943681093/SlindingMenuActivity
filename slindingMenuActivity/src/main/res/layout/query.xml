@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/scnews_title" >
+
+        <ImageView
+            android:id="@+id/query_back"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dip"
+            android:background="@drawable/seachicon_bg"
+            android:src="@drawable/query_head_back" />
+
+        <ImageView
+            android:id="@+id/query_query"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/seachicon_bg"
+            android:src="@drawable/ic_action_search" />
+
+        <EditText
+            android:id="@+id/query_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/query_query"
+            android:layout_toRightOf="@+id/query_back"
+            android:background="@drawable/edittext_bg"
+            android:ems="10"
+            android:hint="  数韵楼  南苑餐厅"
+            android:textSize="18sp" 
+            android:textColorHint="#D3D4D4"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="#EDEDED"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/query_1"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/zs_bg"
+                android:text="数韵楼" />
+
+            <Button
+                android:id="@+id/query_2"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/zj_bg"
+                android:text="桃李桥" />
+
+            <Button
+                android:id="@+id/query_3"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/zj_bg"
+                android:text="西餐" />
+
+            <Button
+                android:id="@+id/query_4"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/ys_bg"
+                android:text="火锅" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/query_5"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/zs_bg"
+                android:text="景点" />
+
+            <Button
+                android:id="@+id/query_6"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/zj_bg"
+                android:text="银行" />
+
+            <Button
+                android:id="@+id/query_7"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/zj_bg"
+                android:text="ATM" />
+
+            <Button
+                android:id="@+id/query_8"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/ys_bg"
+                android:text="打印店" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/query_9"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/thirdbtbg_left_bg"
+                android:text="小吃" />
+
+            <Button
+                android:id="@+id/query_10"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/thirdbtbg_middle_bg"
+                android:text="眼镜店" />
+
+            <Button
+                android:id="@+id/query_11"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/thirdbtbg_middle_bg"
+                android:text="理发店" />
+
+            <Button
+                android:id="@+id/query_12"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:background="@drawable/thirdbtbg_right_bg"
+                android:text="通信" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginTop="240dp"
+    android:background="#30D0DA3B" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/st_ln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/sy1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:id="@+id/pmdtv1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/sy1"
+                    android:text="第一批山师分院：1974年8月，山东师范学院以邵阳、吴毅光，还有曹佐成、王瑞献组成领导小组。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:id="@+id/pmdtv2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一届学生是1974 级学员,中文、政治两个专业招生，学制三年。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:text="第一座教学楼：即东教学楼，1974 年 12 月竣工，为砖混结构，建筑面积为 7279 平方米。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一批干部任命：任命于1975年 3月 16日，山师学院党委任命中文、政治等六 个系的党总支副书记和副主任。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/st_ln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一届山师分院领导班子：1975 年 10 月 27 日,正式于中共山东省委鲁发[1975]147 号文件任命."
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一届学生会：1975 年成立，主席宋恩海，副主席张宝海、于茂阳。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一条校内沥青路：由师院师生员工共同修筑的第一条校内沥青路，于 1976 年 4 月修筑成功."
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一届毕业生：我院第一届毕业生是 1974 级学生，1977 年 7 月毕业离校。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/st_ln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一份学术刊物：1977年 11月《语文教学研究》第一期出版，由中文系和聊城地区教育局合办。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/syone"
+                    android:layout_marginLeft="15dp"
+                    android:text="第一批晋升的讲师：晋升于1978年 5月 26日，公布我院晋升的第一批讲师，共 29第一批晋升的讲师."
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text="第一支校歌：1992年6月9日，聊师院公布《飞向美好的明天》作为学校校歌，曹佐成作词，张德珠作曲。 "
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/syfgx1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#30ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/syone"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/dian" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/syone"
+                    android:text=" 第一个校训：1992年6月8日，聊师院发（公布聊城师范学院校训：“敬业、博学、求实、创新”。"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</HorizontalScrollView>

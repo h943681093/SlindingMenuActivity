@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FFFFFF">
+
+   <RelativeLayout
+            android:id="@+id/rl_Activity_title"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/scnews_title" >
+
+            <ImageView
+                android:id="@+id/Activity_back"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/seachicon_bg"
+                android:src="@drawable/news__back" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/Activity_back"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="60dip"
+                android:text="校训"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:padding="20dp"
+        android:text="          释义：“敬业”：我校师生员工热爱教育事业，有崇高的责任感和强烈的事业心。“博学”：博学是在治学上对全体师生员工的要求。教职员工在教书育人、管理育人、服务育人中都要具有博深的学识；学生要刻苦钻研，努力学习掌握科学文化知识和技能，形成既广博、专深的知识结构和学养。“求实”：全校师生员工要善于从实际出发，研究探索教与学的规律，脚踏实地的工作和学习，务求实效。“创新”：只有努力进取、开拓、创新，师生个人才能行远、做出更大贡献，才能将学校建成国内一流的地方综合性大学。"
+        android:textSize="16sp" 
+         android:textColor="#202020"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="225dp"
+        android:layout_centerHorizontal="true"
+        android:text="【聊大校训】敬业  博学  求实  创新" 
+         android:textColor="#202020"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_Activity_title"
+        android:background="@drawable/jingshen"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp" />
+
+</RelativeLayout>

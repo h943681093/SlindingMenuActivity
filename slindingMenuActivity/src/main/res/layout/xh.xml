@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FFFFFF">
+
+   <RelativeLayout
+            android:id="@+id/rl_Activity_title"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/scnews_title" >
+
+            <ImageView
+                android:id="@+id/Activity_back"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/seachicon_bg"
+                android:src="@drawable/news__back" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/Activity_back"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="60dip"
+                android:text="校徽"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:padding="20dp"
+        android:text="          聊城大学校徽由聊城大学艺术学院美术系教师李凯设计。它是以聊城大学的英文字母名称  LIAO CHENG  UNIVERSITY的三个首字母L、C、U作为基本造型因素，利用曲线和直线组合变化构成，其外观似大海中擎帆航行的船，象征聊大学子在知识的海洋中努拼搏 ，勇往直前；似蓝天上展翅飞翔的大雁，象征着聊大人为远大目标振翅高飞；它又象大海的波涛，后浪推前浪，平静中亦蕴藏着无穷的力量，表示知识的积累过程是厚积薄发。踏着台阶，走进聊大用书搭起的校门，意味着你获得知识的同时就是你积蓄力量、奋发向上的一生中最重要的起点。"
+        android:textSize="16sp" 
+         android:textColor="#202020"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_Activity_title" >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/xiaohui"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

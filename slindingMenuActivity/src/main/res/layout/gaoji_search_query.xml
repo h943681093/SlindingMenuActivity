@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/information_re1"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/scnews_title"
+        android:clickable="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/gaoji_search_back"
+            android:layout_width="54dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/seachicon_bg"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/news__back" />
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="24dip"
+            android:layout_gravity="center"
+            android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+        <TextView
+            android:id="@+id/information_title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dip"
+            android:text="高级搜索"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp" >
+
+            <Spinner
+                android:id="@+id/Spiner1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/sjx"
+                android:background="@drawable/spinner"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/sjx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="13dp"
+                android:gravity="center"
+                android:text="▼"
+                android:textColor="#ECECED"
+                android:textSize="30dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.supermap.mapping.MapView
+            android:id="@+id/Map_view_gaoji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.supermap.mapping.MapView>
+
+        <ZoomControls
+            android:id="@+id/zoomControls_gaoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</LinearLayout>

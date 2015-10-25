@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="430dp"
+    android:layout_marginTop="176dp" >
+
+    <LinearLayout
+        android:id="@+id/st_ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/strl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/fgx1"
+                android:layout_width="2dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:background="#3011111B" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/admin" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/one"
+                android:text="社团介绍"
+                android:textColor="#4D4D4D"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/StIntdro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/strl1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical|left"
+            android:minLines="4"
+            android:text="GIS协会致力于将社团作为创新型、研究型人才的培养基地和推进校园文化建设、提高学生科研水平的重要阵地来建设和经营，充分发挥其在营造科技创新氛围、引导GIS学习潮流方面的突出作用。"
+            android:textColor="#4D4D4D"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/strl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/st_tv1" >
+
+            <RelativeLayout
+                android:id="@+id/fgx1"
+                android:layout_width="2dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:background="#3011111B" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/admin" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/one"
+                android:text="部门描述"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/StDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/strl1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical|left"
+            android:minLines="4"
+            android:text="GIS协会成立六年来，秉承“学以致用 服务社会”的宗旨，依托“大学生科技创新实验室”和学院的师资力量迅速成长，成立了秘书处、实验室、宣传中心、活动部等部门，逐步完善机构设置。同时，GIS协会积极倡导“学以致用”的工作理念，不断专将业知识与实际问题结合，利用大学生科技创新项目，将专业知识应用到实际问题的解决，在项目研究中极大地发挥了GIS的优势。"
+            android:textColor="#4D4D4D"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/strl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/st_tv1" >
+
+            <RelativeLayout
+                android:id="@+id/fgx1"
+                android:layout_width="2dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:background="#3011111B" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/admin" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/one"
+                android:text="联系方式"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/StPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical|left"
+            android:minLines="2"
+            android:text="18863501731"
+            android:textColor="#4D4D4D"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="405dp"
+    android:layout_marginTop="208dp"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="2dp"
+            android:padding="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="     1、在西校宿舍分紫藤和学苑。
+紫藤女生宿舍是8人间，一楼宿舍有瓷砖，2楼以上水泥地面，环境没有学苑好，但是住宿费比学苑低，具体环境跟学苑差不多，但是旧了一点。
+学苑女生宿舍是6人间，配有独立洗漱间卫生间（不能洗澡），阳台，水泥地面。一人一个小橱子。夏天有风扇，冬天有暖气。有2个下铺，4个上铺。左右各2排桌子，每个人一个小桌子，每排的三个桌子是连一块的，6把椅子。可以早来会，挑一个好点的橱子。
+还有每个学苑公寓一楼都有可以用吹风机的地方.
+一般有穿衣镜，没有的话可以去西校区的大学生服务中心（以下简称大服）2楼买，大约是11块钱。
+西校男生宿舍一般为4人间，和女生宿舍差不多，只是卫生间没有水龙头，有的楼没有独立阳台。有独立的桌子，橱子。上面是床，下面是橱子桌子。
+东校宿舍情况和西校女生宿舍差不多。
+2、宿舍用水是学校自己弄的，有点黄（有的时候还很白。。），不能喝，只能用来洗衣服，但不要泡很久，衣服会染黄的，白衣服尽量少带，不好洗，会越洗越黄，或者用增白皂洗能好一点。。有时会停水、停电。需要热水时需要到水房去打，西校的水房有两个，在宿舍楼下的大学生服务中心两侧。有时间规定的供应热水，早上一次，中午一次，下午到晚上9点一次，要打水只能在这3个时间段内打，不然水房是没有水的~
+3、买一个锁，不用太大，锁橱子和抽屉，这样放东西也不怕了。可以买几个挂钩，挂点小东西，会很方便。
+4、军训期间会检查军被、物品摆放、卫生情况。尤其是让人头疼的军被，一般一床被子被叠成军被以后，就失去了原有的作用。。是用来被“供奉”起来的。至于叠军被的要领。军训时教官会教。以后的维持就要靠自己了，可以用水把被子表面稍微弄湿一点，好定型。马克思主义学院和后备军官学院的童鞋们你们就得辛苦了，军被会查的很严很严。一般来说。整个大一一年，学校对宿舍的检查都会很严格，童鞋们要做好心理准备。
+5、宿舍熄灯时间是11点，早晨5:30来电。宿舍楼一般10:40就关门了。大家一定要在关门前到达宿舍。还有，女生尽量不要在晚上单独外出，一定要注意人身安全。
+6、宿舍严禁使用大功率电器，像吹风机之类的，一旦使用，宿舍就会断电，然后需要写检查什么的，挨一顿批才能解决。所以大家不要惹麻烦。（PS：就算是插排，走的时候也要拔掉，否则还是会被没收）"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/sspoit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/press_bluedeeper"
+                android:text="查  看  宿  舍  位  置"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

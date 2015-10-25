@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/strlitem1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/corner_mintextview" >
+
+        <RelativeLayout
+            android:id="@+id/strlitem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/fgx1"
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8dp"
+                android:background="#ff0000" >
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/StName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="运河保护协会"
+                android:textColor="#1c1c1c"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/StIntdros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/strlitem1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|left"
+            android:minLines="3"
+            android:padding="3dp"
+            android:text="GIS协会致力于将社团作为创新型、研究型人才的培养基地和推进校园文化建设。"
+            android:textColor="#4D4D4D"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

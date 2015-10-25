@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent" >
+
+   <RelativeLayout
+            android:id="@+id/rl_Activity_title"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/scnews_title" >
+
+            <ImageView
+                android:id="@+id/Activity_back"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/seachicon_bg"
+                android:src="@drawable/news__back" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/Activity_back"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="60dip"
+                android:text="聊大精神"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:padding="20dp"
+        android:textColor="#202020"
+        android:text="          释义：崇教者，学校尊师重教，教师好好教也。坚持以教学为中心，教新民之道，育天下英才。尚学者，崇尚新知，学生好好学也。坚持以立德树人为重心，弘扬优良学风，致力于学，励志成才。敦厚者，诚朴宽厚、踏实实在也。坚持厚德修身，敦品励行，刚健笃实，日新其德。奋进者，振奋向前、奋勇前进也。坚持锐意进取，敢为人先，精韧不怠，日进有功。"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/jingshen"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="225dp"
+        android:textColor="#202020"
+        android:layout_centerHorizontal="true"
+        android:text="【聊大精神】崇教  尚学  敦厚 奋进" />
+
+</RelativeLayout>

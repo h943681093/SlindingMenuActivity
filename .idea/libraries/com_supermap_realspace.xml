@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.supermap.realspace">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/slindingMenuActivity/libs/com.supermap.realspace.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/corner_mintextview" >
+        <ImageView
+            android:id="@+id/newstIv"
+            android:layout_width="30dip"
+            android:layout_height="20dip"
+            android:layout_alignBottom="@+id/newsactName"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:src="@drawable/sc_no" />
+
+        <TextView
+            android:id="@+id/newsactAbstract"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="45dip"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/newstv_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:layout_below="@id/newsactAbstract"
+            android:gravity="center_vertical|left"
+            android:text="来源:	" />
+
+        <TextView
+            android:id="@+id/newsactSource"
+            android:layout_width="120dip"
+            android:layout_height="25dip"
+            android:layout_below="@id/newsactAbstract"
+            android:layout_toRightOf="@id/newstv_ly"
+            android:gravity="center_vertical|left"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/newsactName"
+            android:layout_width="fill_parent"
+            android:layout_height="42dip"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical|left"
+            android:textColor="#1D334B"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/newsorgDepart_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/newsactAbstract"
+            android:background="@drawable/location" />
+
+        <TextView
+            android:id="@+id/newsactTime"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:gravity="center_vertical|left"
+            android:layout_below="@id/newsactAbstract"
+            android:layout_toRightOf="@id/newsactSource" />
+
+        
+
+    </RelativeLayout>
+
+</RelativeLayout>

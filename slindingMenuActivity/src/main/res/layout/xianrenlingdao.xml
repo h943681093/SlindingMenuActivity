@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/ldbg"
+    >
+
+  <RelativeLayout
+            android:id="@+id/rl_Activity_title"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/scnews_title" >
+
+            <ImageView
+                android:id="@+id/Activity_back"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/seachicon_bg"
+                android:src="@drawable/news__back" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/Activity_back"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="60dip"
+                android:text="现任领导"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="45dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/counter_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【李    喆】	党委书记" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【马春林】	党委副书记、校长" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【徐传光】	党委副书记" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【王    强】	党委常委、副校长" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【孔祥华】	党委常委、纪委书记" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【窦建民】	党委常委、副校长" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【张跃飞】	党委常委、副校长" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【孙兰雨】	党委常委、副校长" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【段培永】	党委常委、副校长" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【王昭风】	副校长" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="【胡海泉】	副校长" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDEDED" >
+
+    <RelativeLayout
+        android:id="@+id/nytitle"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/scnews_title" >
+
+        <ImageView
+            android:id="@+id/ny_back"
+            android:layout_width="54dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/news__back" />
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="24dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/ny_back"
+            android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="60dip"
+            android:text="附近"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ny1"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_below="@id/nytitle"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="25dip"
+        android:background="#EDEDED" >
+
+        <ImageView
+            android:id="@+id/nyiv1"
+            android:layout_width="90dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/nearby_iv1" />
+
+        <Button
+            android:id="@+id/nybt1"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/nyiv1"
+            android:background="@drawable/zs_bg"
+            android:text="快餐" />
+
+        <Button
+            android:id="@+id/nybt3"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignLeft="@+id/nybt1"
+            android:layout_below="@+id/nybt1"
+            android:background="@drawable/zs_bg"
+            android:text="火锅" />
+
+        <Button
+            android:id="@+id/nybt2"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_above="@+id/nybt4"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/nybt1"
+            android:background="@drawable/ys_bg"
+            android:text="小吃" />
+
+        <Button
+            android:id="@+id/nybt4"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_alignBaseline="@+id/nybt3"
+            android:layout_alignBottom="@+id/nybt3"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/nybt3"
+            android:background="@drawable/ys_bg"
+            android:text="外卖" />
+
+        <Button
+            android:id="@+id/nybt5"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_below="@+id/nybt4"
+            android:layout_toRightOf="@+id/nyiv1"
+            android:background="@drawable/thirdbtbg_left_bg"
+            android:text="自助餐" />
+
+        <Button
+            android:id="@+id/nybt6"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/nybt5"
+            android:background="@drawable/thirdbtbg_right_bg"
+            android:text="饭店"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ny2"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_alignLeft="@+id/ny1"
+        android:layout_alignRight="@+id/ny1"
+        android:layout_marginTop="190dip"
+        android:background="#EDEDED" >
+
+        <ImageView
+            android:id="@+id/nyiv2"
+            android:layout_width="90dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/nearby_iv2" />
+
+        <Button
+            android:id="@+id/nybt1S"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/nyiv2"
+            android:background="@drawable/zs_bg"
+            android:text="楼" />
+
+        <Button
+            android:id="@+id/nybt5S"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_below="@+id/nybt3S"
+            android:layout_toRightOf="@+id/nyiv2"
+            android:background="@drawable/thirdbtbg_left_bg"
+            android:text="车位" />
+
+        <Button
+            android:id="@+id/nybt6S"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nybt3S"
+            android:layout_toRightOf="@+id/nybt5S"
+            android:background="@drawable/ys_bg"
+            android:text="车票售点" />
+
+        <Button
+            android:id="@+id/nybt2S"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_above="@+id/nybt3S"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/nybt1S"
+            android:background="@drawable/ys_bg"
+            android:text="浴室" />
+
+        <Button
+            android:id="@+id/nybt4S"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/nybt1S"
+            android:background="@drawable/ys_bg"
+            android:text="公交车站" />
+
+        <Button
+            android:id="@+id/nybt3S"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_below="@+id/nybt1S"
+            android:layout_toRightOf="@+id/nyiv2"
+            android:background="@drawable/zs_bg"
+            android:text="理发店" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ny3"
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:layout_alignLeft="@+id/ny2"
+        android:layout_alignRight="@+id/ny1"
+        android:layout_below="@+id/ny2"
+        android:layout_marginTop="25dip"
+        android:background="#EDEDED" >
+
+        <ImageView
+            android:id="@+id/nyiv3"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/nearby_iv3" />
+
+        <Button
+            android:id="@+id/nybt1t"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/nyiv3"
+            android:background="@drawable/zs_bg"
+            android:text="移动营业厅" />
+
+        <Button
+            android:id="@+id/nybt5t"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_below="@+id/nybt3t"
+            android:layout_toRightOf="@+id/nyiv3"
+            android:background="@drawable/zs_bg"
+            android:text="洗手间" />
+
+        <Button
+            android:id="@+id/nybt6t"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nybt3t"
+            android:layout_toRightOf="@+id/nybt5t"
+            android:background="@drawable/ys_bg"
+            android:text="超市" />
+
+        <Button
+            android:id="@+id/nybt2t"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_above="@+id/nybt3t"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/nybt1t"
+            android:background="@drawable/ys_bg"
+            android:text="联通营业厅" />
+
+        <Button
+            android:id="@+id/nybt4t"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nybt1t"
+            android:layout_toRightOf="@+id/nybt3t"
+            android:background="@drawable/ys_bg"
+            android:text="食堂" />
+
+        <Button
+            android:id="@+id/nybt7t"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/nyiv3"
+            android:layout_below="@+id/nyiv3"
+            android:background="@drawable/thirdbtbg_left_bg"
+            android:text="快递" />
+
+        <Button
+            android:id="@+id/nybt8t"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_below="@+id/nyiv3"
+            android:layout_toLeftOf="@+id/nybt6t"
+            android:layout_toRightOf="@+id/nyiv3"
+            android:background="@drawable/thirdbtbg_middle_bg"
+            android:text="水果店" />
+
+        <Button
+            android:id="@+id/nybt9t"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nybt6t"
+            android:layout_toRightOf="@+id/nybt8t"
+            android:background="@drawable/ys_bg"
+            android:text="打印社" />
+
+        <Button
+            android:id="@+id/nybt3t"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_alignBaseline="@+id/nybt4t"
+            android:layout_alignBottom="@+id/nybt4t"
+            android:layout_toRightOf="@+id/nyiv3"
+            android:background="@drawable/zs_bg"
+            android:text="水房" />
+    </RelativeLayout>
+
+</RelativeLayout>

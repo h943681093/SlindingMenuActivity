@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dip" >
+
+        <TextView
+            android:id="@+id/wpName"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dip"
+            android:gravity="center_vertical|left"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/actContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wpName"
+            android:layout_margin="5dip"
+            android:gravity="center_vertical|left"
+            android:text=""
+            android:textColor="#969696"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/actPhone"
+            style="@style/Smile.TextView._White"
+            android:layout_alignParentRight="true"
+            android:layout_height="20dip"
+            android:layout_below="@id/actContent"
+            android:background="@drawable/press_bluedeeper"
+            android:drawableLeft="@drawable/icon_photo"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical|left"
+            
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:autoLink="phone"
+            android:textColorLink="#FFFFFF"
+            android:text="认领"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/Sc_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="20dip"
+            android:layout_alignBottom="@id/actPhone"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical|left"
+            android:hint="2012-12-12  " />
+
+        <TextView
+            android:id="@+id/Sc_Time2"
+            android:layout_width="40dip"
+            android:layout_height="20dip"
+            android:layout_alignBottom="@id/actPhone"
+            android:layout_toRightOf="@id/Sc_Time"
+            android:gravity="center_vertical|right"
+            android:hint="00:00 " />
+
+        <RelativeLayout
+            android:id="@+id/ln"
+            android:layout_width="match_parent"
+            android:layout_height="8dip"
+            android:layout_below="@id/actPhone"
+            
+            
+            android:background="#FFFFFF" >
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="8dip"
+                />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/ScDepart_map"
+            android:layout_width="13dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/Sc_Time2"
+            android:layout_toRightOf="@id/Sc_Time2"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/press_locationdeeper" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_search_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_action_bar_height"
+        android:background="@drawable/scnews_title"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/serel_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/seachicon_bg"
+            android:src="@drawable/news__back" />
+
+        <TextView
+            android:id="@+id/tv_add"
+            style="@style/Smile.TextView._White"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/serel_back"
+            android:text="我要认领"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/rel_pho_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_edit_height"
+            android:layout_margin="4dp"
+            android:background="@drawable/input"
+            android:hint="联系方式"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/rel_cont_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/input"
+            android:hint="详细描述"
+            android:minLines="4"
+            android:paddingLeft="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#EDEDED" >
+
+            <EditText
+                android:id="@+id/showdate"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dip"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|left"
+                android:hint="2021-01-01"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp" />
+
+            <Button
+                android:id="@+id/picktime"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_margin="2dip"
+                android:layout_toRightOf="@+id/showtime"
+                android:text="时间"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/pickdate"
+                android:layout_width="wrap_content"
+                android:layout_height="35dip"
+                android:layout_alignParentTop="true"
+                android:layout_margin="2dip"
+                android:layout_toRightOf="@id/showdate"
+                android:text="日期"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/showtime"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dip"
+                android:layout_toRightOf="@+id/pickdate"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|left"
+                android:hint="12:00"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp" >
+            </EditText>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/gbutton"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/press_bluedeeper"
+            android:text="我  要  认  领"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/tostr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.78"
+            android:background="#EDEDED"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>

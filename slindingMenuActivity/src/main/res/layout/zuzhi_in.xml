@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed" >
+
+    <ImageView
+        android:id="@+id/st_url1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/st_title"
+         />
+
+    <TextView
+        android:id="@+id/stnamein"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="100dp"
+        android:text="运河保护协会"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+    
+
+    <ImageView
+        android:id="@+id/st_url2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+         />
+
+    <RelativeLayout
+        android:id="@+id/st_fgx2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/st_url2"
+        android:background="#3011111B" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/st_fgx"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="#3011111B" >
+    </RelativeLayout>
+
+   
+
+    <include
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/st_fgx2"
+        layout="@layout/zuzhi_in_st" />
+
+</RelativeLayout>

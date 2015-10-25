@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDEDED" >
+
+        <LinearLayout
+            android:id="@+id/information_re1"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/scnews_title"
+            android:clickable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/information_back"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/seachicon_bg"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/news__back" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_gravity="center"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:id="@+id/information_title"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dip"
+                android:text="寻物助手"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/se_refesh"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/seachicon_bg"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/refresh_bt_title" />
+
+            <ImageView
+                android:id="@+id/information_Write"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/seachicon_bg"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/imagebt_searchgoods_xq" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/information_re1"
+            android:background="#FEFEFE" >
+
+            <EditText
+                android:id="@+id/search_search"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="8dip"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/v5_0_1_friend_search_icon"
+                android:drawablePadding="8dip"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="课本  校园卡  钥匙 "
+                android:paddingRight="30dip"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/Sc_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#EEEEEE"
+        android:dividerHeight="5dip"
+        android:fadingEdge="none"
+        android:padding="5dip"
+        android:scrollingCache="false" />
+
+</LinearLayout>

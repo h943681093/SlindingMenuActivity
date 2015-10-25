@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FFFFFF">
+
+
+   <RelativeLayout
+            android:id="@+id/rl_Activity_title"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/scnews_title" >
+
+            <ImageView
+                android:id="@+id/Activity_back"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/seachicon_bg"
+                android:src="@drawable/news__back" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/Activity_back"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="60dip"
+                android:text="教风"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:padding="20dp"
+        android:text="          释义：教师一方面要不断提高教育教学水平，努力让学生满意；同时要始终做到为人师表，让学生敬爱。故要求每一位教师德艺双修。《论语·雍也》语：“夫仁者，己欲立而立人，已欲达而达人”。“立己达人”对教师提出了明确的育人职责，要求教师要想成就自我，需要先使学生通达事理，先帮助学生成才成功。"
+        android:textSize="16sp" 
+        android:textColor="#202020"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="225dp"
+        android:layout_centerHorizontal="true"
+        android:text="【教风】德艺双修  立己达人" 
+         android:textColor="#202020"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_Activity_title"
+        android:background="@drawable/jf"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp" />
+
+</RelativeLayout>

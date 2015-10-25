@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#900</color>
+    <color name="blue">#009</color>
+    <color name="black">#000</color>
+
+    
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#FAF8ED</color>
+    <color name="list_background_pressed">#E8F2FE</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#C6C8D2</color>
+    <color name="grayc">#ECECEC</color>
+    <color name="graya">#F4F4F4</color>
+    <color name="hu">#535353</color>
+    <color name="blue2">#ff220af0</color>
+    <color name="green">#5cbe6c</color>
+    <color name="fujinh">#D1D3D4</color>
+    <color name="fujinq">#E9EAED</color>
+    <color name="seachicon">#2898E7</color>
+    
+    <color name="titlecolor">#17B4EB</color>
+    <color name="bordbg">#2B2D33</color>
+    
+
+    <!-- 二维码 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+</resources>

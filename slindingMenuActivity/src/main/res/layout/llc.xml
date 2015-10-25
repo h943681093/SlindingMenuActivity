@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lc2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dhiv1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/number_1" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dhiv1"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/dhk" >
+
+                <TextView
+                    android:id="@+id/wstep_1"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="10dp"
+                    android:text="入学准备"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/step_1"
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/l1" />
+
+                <TextView
+                    android:id="@+id/wstep2_1"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="175dp"
+                    android:paddingBottom="15dp"
+                    android:text="准备好自己的钱物、衣物及生活用品，带好准考证，身份证，录取通知书。" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dhiv2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/number_2" />
+
+            <RelativeLayout
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_alignTop="@+id/dhiv2"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/dhk" >
+
+                <TextView
+                    android:id="@+id/wstep_2"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="29dp"
+                    android:paddingTop="10dp"
+                    android:text="志愿者接待"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/step_2"
+                    android:layout_width="130dp"
+                    android:layout_height="210dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/l2" />
+
+                <TextView
+                    android:id="@+id/wstep2_2"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingBottom="15dp"
+                    android:text="在车站或学校门口的接待处和校门口在会有我们的志愿者在接待处迎接新生。" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dhiv3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/number_3" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dhiv3"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/dhk" >
+
+                <TextView
+                    android:id="@+id/wstep_3"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="10dp"
+                    android:text="学院报到"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/step_3"
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/l3" />
+
+                <TextView
+                    android:id="@+id/wstep2_3"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="178dp"
+                    android:paddingBottom="15dp"
+                    android:text="在校园的迎新大道两旁有各学院设立的接待处，迎接新生报到，并且安排宿舍。" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dhiv4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/number_4" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dhiv4"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/dhk" >
+
+                <TextView
+                    android:id="@+id/wstep_4"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="10dp"
+                    android:text="缴纳费用"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/step_4"
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/l4" />
+
+                <TextView
+                    android:id="@+id/wstep2_4"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="178dp"
+                    android:paddingBottom="15dp"
+                    android:text="统一通过学校的财务系统缴费，没有缴费的同学，报到当天去财务科补缴。" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dhiv5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/number_5" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dhiv5"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/dhk" >
+
+                <TextView
+                    android:id="@+id/wstep_5"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="10dp"
+                    android:text="领取被褥"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/step_5"
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/l5" />
+
+                <TextView
+                    android:id="@+id/wstep2_5"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="178dp"
+                    android:paddingBottom="15dp"
+                    android:text="在新生接待处报道后，学院会安排学长学姐带领去宿舍，帮忙领取被褥。" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dhiv6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/number_6" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dhiv6"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/dhk" >
+
+                <TextView
+                    android:id="@+id/wstep_6"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="10dp"
+                    android:text="搬入宿舍"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/step_6"
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/l6" />
+
+                <TextView
+                    android:id="@+id/wstep2_6"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="178dp"
+                    android:paddingBottom="15dp"
+                    android:text="学长学姐帮忙领取被褥后，再根据宿舍安排带你去宿舍找到自己的床位" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="62dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/dhiv6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/number_7" />
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_alignTop="@+id/dhiv6"
+                android:layout_marginLeft="95dp"
+                android:background="@drawable/dhk" >
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="0dp"
+                    android:text="美好的的大学生活开始啦!"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

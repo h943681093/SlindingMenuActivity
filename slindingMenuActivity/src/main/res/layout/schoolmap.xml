@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <com.supermap.mapping.MapView
+        android:id="@+id/Map_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.supermap.mapping.MapView>
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="慧智楼" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/map_bg_f"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnlocation"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/map_select"
+            android:text="定位" />
+
+        <Button
+            android:id="@+id/nearby_btn"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/map_selectf"
+            android:text="附近" />
+    </LinearLayout>
+
+</RelativeLayout>

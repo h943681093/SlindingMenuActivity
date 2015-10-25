@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/newstitle"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/scnews_title" >
+
+            <ImageView
+                android:id="@+id/newsnotice_back"
+                android:layout_width="54dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:background="@drawable/seachicon_bg"
+                android:src="@drawable/news__back" />
+
+            <ImageView
+                android:layout_width="2px"
+                android:layout_height="24dip"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@id/newsnotice_back"
+                android:src="@drawable/v5_0_1_flipper_head_separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="60dip"
+                android:text="详情"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/newstIvin"
+            android:layout_width="match_parent"
+            android:layout_height="160dip"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/admin" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <TextView
+                android:id="@+id/newsactNamein"
+                android:layout_width="fill_parent"
+                android:layout_height="55dip"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:textColor="#1D334B"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/news_bqin"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="9dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/newsactAbstractin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:lineSpacingExtra="3dp"
+            android:textColor="#393939" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <TextView
+                android:id="@+id/newsactSourcein"
+                android:layout_width="120dip"
+                android:layout_height="25dip"
+                android:layout_alignBaseline="@+id/newstv_lyin"
+                android:layout_alignBottom="@+id/newstv_lyin"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@+id/newstv_lyin"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|left" />
+
+            <TextView
+                android:id="@+id/newstv_lyin"
+                android:layout_width="wrap_content"
+                android:layout_height="25dip"
+                android:layout_alignParentLeft="true"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|left"
+                android:text="来源:	" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_toLeftOf="@+id/newsorgDepart_mapin"
+                android:gravity="center_vertical|right"
+                android:padding="3dp"
+                android:text="热点" />
+
+            <ImageButton
+                android:id="@+id/newsorgDepart_mapin"
+                android:layout_width="13dip"
+                android:layout_height="22dip"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/location_red" />
+
+            <TextView
+                android:id="@+id/newsactTimein"
+                android:layout_width="wrap_content"
+                android:layout_height="25dip"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/newsactSourcein"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|left"
+                android:padding="3dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
